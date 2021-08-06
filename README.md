@@ -73,4 +73,4 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 
 
-I don't understand any of this. I feel like I didn't learn anything. The way we learned to do these things seems completely different from this sprint challenge. 
+
