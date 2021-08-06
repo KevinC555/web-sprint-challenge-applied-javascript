@@ -37,23 +37,14 @@ const Tabs = (topics) => {
 }
 
 const tabsAppender = (selector) => {
-	const dataFromApi = { "topics": ["javascript", "bootstrap", "technology", "jquery", "node.js"] };
-	const selectorElement = document.querySelector(selector);
-	const elements = tabs(dataFromApi.topics);
-	elements.forEach((element) => {
-		selectorElement.appendChild(element)
-	})
+	// TASK 4
+	// ---------------------
+	// Implement this function which takes a css selector as its only argument.
+	// It should obtain topics from this endpoint: `http://localhost:5000/api/topics` (test it in Postman/HTTPie!).
+	// Find the array of topics inside the response, and create the tabs using the Tabs component.
+	// Append the tabs to the element in the DOM that matches the selector passed to the function.
+	//
 
-	const tabs = ((topics) => {
-		const elements = topics.map(() => {
-			return document.createElement("div");
-		});
-		elements.forEach((element, index) => {
-			element.textContent = dataFromApi.topics[index];
-			element.classList.add("tab");
-		})
-		return elements;
-	})
 }
 
 
